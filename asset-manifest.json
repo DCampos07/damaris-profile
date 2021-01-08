@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/DCampos07/damaris-profile.git/static/css/main.b790cff5.chunk.css",
+    "main.js": "/DCampos07/damaris-profile.git/static/js/main.add3c58d.chunk.js",
+    "main.js.map": "/DCampos07/damaris-profile.git/static/js/main.add3c58d.chunk.js.map",
+    "runtime-main.js": "/DCampos07/damaris-profile.git/static/js/runtime-main.2de9b0be.js",
+    "runtime-main.js.map": "/DCampos07/damaris-profile.git/static/js/runtime-main.2de9b0be.js.map",
+    "static/js/2.15cdc37c.chunk.js": "/DCampos07/damaris-profile.git/static/js/2.15cdc37c.chunk.js",
+    "static/js/2.15cdc37c.chunk.js.map": "/DCampos07/damaris-profile.git/static/js/2.15cdc37c.chunk.js.map",
+    "static/js/3.7942c62e.chunk.js": "/DCampos07/damaris-profile.git/static/js/3.7942c62e.chunk.js",
+    "static/js/3.7942c62e.chunk.js.map": "/DCampos07/damaris-profile.git/static/js/3.7942c62e.chunk.js.map",
+    "index.html": "/DCampos07/damaris-profile.git/index.html",
+    "static/css/main.b790cff5.chunk.css.map": "/DCampos07/damaris-profile.git/static/css/main.b790cff5.chunk.css.map",
+    "static/js/2.15cdc37c.chunk.js.LICENSE.txt": "/DCampos07/damaris-profile.git/static/js/2.15cdc37c.chunk.js.LICENSE.txt",
+    "static/media/0.jpg": "/DCampos07/damaris-profile.git/static/media/0.b18c130d.jpg",
+    "static/media/1.jpg": "/DCampos07/damaris-profile.git/static/media/1.ffe481f4.jpg",
+    "static/media/2.jpg": "/DCampos07/damaris-profile.git/static/media/2.da4d6061.jpg",
+    "static/media/3.jpg": "/DCampos07/damaris-profile.git/static/media/3.dd376ef9.jpg",
+    "static/media/4.jpg": "/DCampos07/damaris-profile.git/static/media/4.ed3b1a69.jpg",
+    "static/media/cover-image.b5cfb347.jpg": "/DCampos07/damaris-profile.git/static/media/cover-image.b5cfb347.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2de9b0be.js",
+    "static/js/2.15cdc37c.chunk.js",
+    "static/css/main.b790cff5.chunk.css",
+    "static/js/main.add3c58d.chunk.js"
+  ]
+}
