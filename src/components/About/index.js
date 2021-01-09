@@ -1,98 +1,28 @@
 import React, { useState } from 'react';
-import {
-  Carousel,
-  CarouselItem,
-  CarouselControl,
-  CarouselIndicators,
-  CarouselCaption
-} from 'reactstrap';
-
-import box2 from '../../assets/carousel/box2.jpg'
-import box3 from '../../assets/carousel/box3.jpg'
-import box4 from '../../assets/carousel/box4.jpg'
+//import CarouselTab from './components/Carousel';
+import profileImage from "../../assets/profile.png";
 
 function About() {
-  const items = [
-    {
-  
-      id: 1,
-      altText: 'Slide 1',
-      caption: 'Slide 1',
-      src: box2
-        },
-    {
-      id: 2,
-      altText: 'Slide 2',
-      caption: 'Slide 2',
-      src: box3
-    },
-    {
-      id: 3,
-      altText: 'Slide 3',
-      caption: 'Slide 3',
-      src: box4
-    }
-  ];
-
-
-  const [activeIndex, setActiveIndex] = useState(0);
-  const [animating, setAnimating] = useState(false);
-
-  const next = () => {
-    if (animating) return;
-    const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
-    setActiveIndex(nextIndex);
-  }
-
-  const previous = () => {
-    if (animating) return;
-    const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
-    setActiveIndex(nextIndex);
-  }
-
-  const goToIndex = (newIndex) => {
-    if (animating) return;
-    setActiveIndex(newIndex);
-  }
-
-  const slides = items.map((item) => {
-    return (
-      <CarouselItem
-        className="custom-tag"
-        tag="div"
-        key={item.id}
-        onExiting={() => setAnimating(true)}
-        onExited={() => setAnimating(false)}
-      >
-       <img src={item.src} alt={item.altText} />
-        <CarouselCaption className="text-danger" captionText={item.caption} captionHeader={item.caption} />
-      </CarouselItem>
-    );
-  });
-
   return (
-    <div>
-      <style>
-        {
-          `.custom-tag {
-              max-width: 100%;
-              height: 500px;
-              background: black;
-            }`
-        }
-      </style>
-      <Carousel
-        activeIndex={activeIndex}
-        next={next}
-        previous={previous}
-      >
-        <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
-        {slides}
-        <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
-        <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
-      </Carousel>
-    </div>
+    
+    <Media>
+      <img
+        width={200}
+        height={200}
+        className="mr-3"
+        src={profileImage} 
+        alt="Damaris Campos profile image" 
+        className="img-fluid" />
+      <Media.Body>
+        <h5>About ME</h5>
+        <p>
+          I am a newly graduated Full-Stack Web Developer.  I have over 10 years of experience in the luxury retail management 
+          which make my strongest skills communication, organization, problem solving, team-work, and flexbility.  I rely on the use
+          of all of those retail skills in my every day Developer life.
+      </p>
+      </Media.Body>
+    </Media>
   )
-};
+}
 
-export default About;
+export default About
