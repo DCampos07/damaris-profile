@@ -7,22 +7,30 @@ import {
   CarouselCaption
 } from 'reactstrap';
 
+import box2 from '../../assets/carousel/box2.jpg'
+import box3 from '../../assets/carousel/box3.jpg'
+import box4 from '../../assets/carousel/box4.jpg'
+
 function About() {
   const items = [
     {
+  
       id: 1,
       altText: 'Slide 1',
-      caption: 'Slide 1'
-    },
+      caption: 'Slide 1',
+      src: box2
+        },
     {
       id: 2,
       altText: 'Slide 2',
-      caption: 'Slide 2'
+      caption: 'Slide 2',
+      src: box3
     },
     {
       id: 3,
       altText: 'Slide 3',
-      caption: 'Slide 3'
+      caption: 'Slide 3',
+      src: box4
     }
   ];
 
