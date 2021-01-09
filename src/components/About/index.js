@@ -64,6 +64,7 @@ function About() {
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
       >
+       <img src={item.src} alt={item.altText} />
         <CarouselCaption className="text-danger" captionText={item.caption} captionHeader={item.caption} />
       </CarouselItem>
     );
