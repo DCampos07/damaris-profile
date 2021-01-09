@@ -4,29 +4,23 @@ import About from './components/About';
 import Projects from './components/Projects';
 import ContactForm from './components/Contact';
 import Footer from './components/Footer';
+import Header from './components/Header';
 
 function App() {
-  const [categories] = useState([
-    {
-      name: 'Projects',
-      description: 'Projects I have worked on',
-    },
-
-  ]);
-
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
-
-  const [contactSelected, setContactSelected] = useState(false);
-
+  const [nav] = useState(["About", "Portfolio", "Resume", "Contact"]);
+  const [currentMobile, setCurrentMobile] = useState(false);
+  const [currentNav, setCurrentNav] = useState(nav[0]);
   return (
-    <div>
+    <div className={`${currentMobile ? "mobile-nav-active" : ""}`}>
+      <Header />
       <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
+        nav={nav}
+        currentNav={currentNav}
+        currentMobile={currentMobile}
+        setCurrentNav={setCurrentNav}
+        setCurrentMobile={setCurrentMobile}
+      />
+
       <main>
         {!contactSelected ? (
           <>
