@@ -7,20 +7,18 @@ import { Media, Image } from 'react-bootstrap';
 
 function About() {
   return (
-    <Media>
+    <Media class="container">
       <Image
-        width={200}
-       // height={150}
-        className="align-self-center mr-3 "
+        id="photo"
         src={profileImage} roundedCircle fluid
         alt="Damaris Campos profile image" />
 
       <Media.Body>
         <h5>About Me</h5>
         <p>
-          I am a newly graduated Full-Stack Web Developer.  I have over 10 years of experience in the luxury retail management
+          I am a newly graduated Full-Stack Web Developer.  I have over 10 years of experience in the luxury retail management industry
           which make my strongest skills communication, organization, problem solving, team-work, and flexbility.  I rely on the use
-            of all of those retail skills in my every day Developer life. </p>
+          of all of those retail skills in my every day developer life. </p>
       </Media.Body>
     </Media>
   );
