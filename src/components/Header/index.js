@@ -1,15 +1,29 @@
-import React from 'react';
-import { CardHeader } from 'reactstrap';
-import dcLogo from "../../assets/dc_logo.png"
+import React, { Component } from "react";
+import { Route, Redirect, HashRouter } from "react-router-dom";
+import Navigation from "../../components/Navigation";
+import About from "../../components/About";
+import Projects from "../../components/Projects";
+import Contact from '../../components/Contact';
+import Skills from '../../components/Skills';
 
 
-const Header = (props) => {
-  return (
-    <div className="d-flex flex-row">
-      <CardHeader>Damaris Campos</CardHeader>
-        <img src={dcLogo} alt="Damaris Campos personal logo" className="img-fluid" />
-    </div>
-  );
-};
+class Header extends Component {
+  render() {
+    return (
+      <HashRouter>
+        <header>
+          <Navigation />
+        </header>
 
+        <div className="content">
+          <Route exact path="/" render={() => <Redirect to="/about" />} />
+          <Route path="/about" component={About} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/skills" component={Skills} />
+          </div>
+      </HashRouter>
+    );
+  }
+}
 export default Header;

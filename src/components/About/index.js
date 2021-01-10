@@ -1,29 +1,29 @@
 import React from 'react';
 //import CarouselTab from './components/Carousel';
 import profileImage from "../../assets/profile.png";
-import { Media } from 'reactstrap';
+import { Media, Image } from 'react-bootstrap';
+
+
 
 function About() {
   return (
-    
     <Media>
-      <img
+      <Image
         width={200}
-        height={200}
-        className="mr-3"
-        src={profileImage}
-        alt="Damaris Campos profile image" 
-        className="img-fluid" />
+       // height={150}
+        className="align-self-center mr-3 "
+        src={profileImage} roundedCircle fluid
+        alt="Damaris Campos profile image" />
+
       <Media.Body>
-        <h5>About ME</h5>
+        <h5>About Me</h5>
         <p>
-          I am a newly graduated Full-Stack Web Developer.  I have over 10 years of experience in the luxury retail management 
+          I am a newly graduated Full-Stack Web Developer.  I have over 10 years of experience in the luxury retail management
           which make my strongest skills communication, organization, problem solving, team-work, and flexbility.  I rely on the use
-          of all of those retail skills in my every day Developer life.
-      </p>
+            of all of those retail skills in my every day Developer life. </p>
       </Media.Body>
     </Media>
-  )
+  );
 }
 
 export default About
