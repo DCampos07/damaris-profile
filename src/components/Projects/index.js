@@ -1,15 +1,68 @@
 import React from 'react';
-import PhotoList from '../About';
-import { capitalizeFirstLetter } from '../../utils/helpers';
+import { Card, Button, CardTitle, CardText, CardImg, Row, Col } from 'reactstrap';
 
-function Projects(props) {
-  const { currentCategory } = props;
+function Projects() {
   return (
-    <section>
-      <h1 data-testid="h1tag">{capitalizeFirstLetter(currentCategory.name)}</h1>
-      <p>{currentCategory.description}</p>
-      <PhotoList category={currentCategory.name} />
-    </section>
+    <Row>
+      <Col sm={{ size: 'auto', offset: 1 }}>
+        <Card body>
+        <CardImg top width="100%" src="../../assets/318x180.svg" alt="Card image cap" />
+          <CardTitle tag="h5">Project #1</CardTitle>
+          <CardText>Summary of first projet.</CardText>
+          <Button outline color="primary">take me to GitHub for this button</Button>{''}
+        </Card>
+      </Col>
+      <Col sm={{ size: 'auto', offset: 1 }}>
+        <Card body>
+        <CardImg top width="100%" src="../../assets/318x180.svg" alt="Card image cap" />
+          <CardTitle tag="h5">Project #2</CardTitle>
+          <CardText>Summary of projet.</CardText>
+          <Button outline color="primary">take me to GitHub for this button</Button>{''}
+        </Card>
+      </Col>
+      <Col sm={{ size: 'auto', offset: 1 }}>
+        <Card body>
+        <CardImg top width="100%" src="../../assets/318x180.svg" alt="Card image cap" />
+          <CardTitle tag="h5">Project #3</CardTitle>
+          <CardText>Summary of projet.</CardText>
+          <Button outline color="primary">take me to GitHub for this button</Button>{''}
+        </Card>
+      </Col>
+      <Col sm={{ size: 'auto', offset: 1 }}>
+        <Card body>
+        <CardImg top width="100%" src="../../assets/318x180.svg" alt="Card image cap" />
+          <CardTitle tag="h5">Project #4</CardTitle>
+          <CardText>Summary of projet.</CardText>
+          <Button outline color="primary">take me to GitHub for this button</Button>{''}
+        </Card>
+      </Col>
+      <Col sm={{ size: 'auto', offset: 1 }}>
+        <Card body>
+        <CardImg top width="100%" src="../../assets/318x180.svg" alt="Card image cap" />
+          <CardTitle tag="h5">Project #5</CardTitle>
+          <CardText>Summary of projet.</CardText>
+          <Button outline color="primary">take me to GitHub for this button</Button>{''}
+        </Card>
+      </Col>
+      <Col sm={{ size: 'auto', offset: 1 }}>
+        <Card body>
+        <CardImg top width="100%" src="../../assets/318x180.svg" alt="Card image cap" />
+          <CardTitle tag="h5">Project #6</CardTitle>
+          <CardText>Summary of projet.</CardText>
+          <Button outline color="primary">take me to GitHub for this button</Button>{''}
+        </Card>
+      </Col>
+      <Col sm={{ size: 'auto', offset: 1 }}>
+        <Card body>
+        <CardImg top width="100%" src="../../assets/318x180.svg" alt="Card image cap" />
+          <CardTitle tag="h5">Project #7</CardTitle>
+          <CardText>Summary of projet.</CardText>
+          <Button outline color="primary">take me to GitHub for this button</Button>{''}
+        </Card>
+      </Col>
+    </Row>
+
   );
 }
+
 export default Projects;
