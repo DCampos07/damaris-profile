@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 //import CarouselTab from './components/Carousel';
 import profileImage from "../../assets/profile.png";
+import { Media } from 'reactstrap';
 
 function About() {
   return (
@@ -10,7 +11,7 @@ function About() {
         width={200}
         height={200}
         className="mr-3"
-        src={profileImage} 
+        src={profileImage}
         alt="Damaris Campos profile image" 
         className="img-fluid" />
       <Media.Body>

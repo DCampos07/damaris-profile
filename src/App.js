@@ -6,36 +6,38 @@ import About from './components/About';
 import Projects from './components/Projects';
 import ContactForm from './components/Contact';
 import Footer from './components/Footer';
+import "./App.css"
 
 
 function App() {
   const [nav] = useState(["About", "Skills", "Projects", "Contact"]);
   const [currentMobile, setCurrentMobile] = useState(false);
-  const [currentNav, setCurrentNav] = useState(nav[0]);
+  const [currentNavigation, setCurrentNavigation] = useState(nav[0]);
   return (
     <div className={`${currentMobile ? "mobile-nav-active" : ""}`}>
-      <Header>
-        <Navigation
-          nav={nav}
-          currentNav={currentNav}
-          currentMobile={currentMobile}
-          setCurrentNav={setCurrentNav}
-          setCurrentMobile={setCurrentMobile}
-        />
-      </Header>
+      <Header />
+      <Navigation
+        nav={nav}
+        currentNavigation={currentNavigation}
+        currentMobile={currentMobile}
+        setCurrentNavigation={setCurrentNavigation}
+        setCurrentMobile={setCurrentMobile}
+      />
+
       <main>
-        {!contactSelected ? (
-          <>
-            <About>
-              <CarouselTab></CarouselTab>
-            </About>
-            <Projects></Projects>
-          </>
+        {currentNavigation === "About" ? (
+          <About />
+        ) : currentNavigation === "Projects" ? (
+          <Projects />
+        ) : currentNavigation === "Skills" ? (
+          <Skills />
+        ) : currentNavigation === "Contact" ? (
+          <ContactForm />
         ) : (
-            <ContactForm></ContactForm>
-          )}
+          <About />
+        )}
+        <Footer />
       </main>
-      <Footer></Footer>
     </div>
   );
 }
