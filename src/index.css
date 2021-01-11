@@ -279,7 +279,7 @@ textarea {
 .card {
   background-color: var(--white);
   border-radius: 5px;
-  height: 400px;
+  height: 500px;
   margin: 2rem;
   position: relative;
   width: 400px;
@@ -296,7 +296,7 @@ textarea {
 
 .card .img-container img {
   width: 100%;
-  padding: 25px;
+  padding: 20px;
   margin-bottom: 20px;
   background-color: var(--white);
 }
@@ -326,6 +326,13 @@ textarea {
 .project-icon {
   background-color: var(--white);
   padding: 5px;
+}
+
+.description {
+  font-size: small;
+  font-style: italic;
+  color: black;
+  background-color: var(--white)
 }
 
 .topics {

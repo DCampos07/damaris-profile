@@ -2,10 +2,55 @@
     {
         "id": 1,
         "name": "Budget Tracker",
-        "image": "https://github.com/kpehl/week-in-view/raw/main/media/week-in-view.png",
+        "image": "https://github.com/DCampos07/OfflineBudgetTracker/blob/main/public/images/screen.png?raw=true",
         "github": "https://github.com/DCampos07/OfflineBudgetTracker.git",
         "deploy": "https://pacific-savannah-32091.herokuapp.com/",
-        "topics": "Node.Js, Express, GIT, GitHub, HTML, CSS, Heroku, Command- Line",
-        "description": "An app where the user will be able to add expenses and deposits to their budget with or without a connection."
+        "description": "An app where the user will be able to add expenses and deposits to their budget with or without a connection.",
+        "topics": "Node.Js, Express, JavaScript GIT, GitHub, HTML, CSS, Heroku, Command- Line"
+    },
+    {
+        "id": 2,
+        "name": "Blog",
+        "image": "https://github.com/DCampos07/the-tech-blog/blob/main/screenshot.png?raw=true",
+        "github": "https://github.com/DCampos07/the-tech-blog.git",
+        "deploy": "https://mysterious-wildwood-70181.herokuapp.com/",
+        "description": "A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.",
+        "topics": "Node.Js, MySql2, JavaScript, GIT, GitHub, HTML, CSS, Heroku, Command- Line"
+    },
+    {
+        "id": 3,
+        "name": "Movie Buff",
+        "image": "",
+        "github": "https://github.com/DCampos07/movie-buff.git",
+        "deploy": "https://dashboard.heroku.com/apps/evening-ridge-90593",
+        "description": "A collaborative full-stack application, where as a team we combined a robust back end—with servers, databases, advanced APIs, and user authentication—to an intuitive front end.",
+        "topics": "Node.Js, Express.JS, RESTful API, Handlebars.js, MySQL, Sequelize ORM, Heroku, JQuery, Javascript"
+    },
+     {
+        "id": 4,
+        "name": "Note Taker",
+        "image": "https://github.com/DCampos07/Note-Taker/blob/main/public/assets/images/note-main.png?raw=true",
+        "github": "https://github.com/DCampos07/Note-Taker.git",
+        "deploy": "",
+        "description": "A simple application that can be used to write and save notes",
+        "topics": "Node.Js, Express, JavaScript, GIT, GitHub, HTML, CSS, Bootstrap"
+    },
+    {
+        "id": 5,
+        "name": "Profile Generator",
+        "image": "https://github.com/DCampos07/Team-Profile-Generator/blob/main/assets/img/team-profile-generator-screenshot.png?raw=true",
+        "github": "https://github.com/DCampos07/Team-Profile-Generator.git",
+        "deploy": "",
+        "description": "A Node.js command line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries of each person.",
+        "topics": "Node.Js, Express, JavaScript, GIT, GitHub, HTML, CSS, Bootstrap"
+    },
+    {
+        "id": 6,
+        "name": "Cocktail-U",
+        "image": "https://github.com/DCampos07/Cocktail-U/blob/master/landing-page.png?raw=true",
+        "github": "https://github.com/DCampos07/Cocktail-U.git",
+        "deploy": "https://mcowley1.github.io/Cocktail-U/",
+        "description": "In this application, we apply three servers API in combination to HTML and JavaScript to synergistically create an application that allows users to choose cocktails from a list",
+        "topics": "JavaScript, GIT, GitHub, HTML, CSS, Bootstrap"
     }
 ]
