@@ -14,7 +14,7 @@ function Navigation(props) {
             <Image
               width={50}
               // height={150}
-              className="align-self-center"
+              //className="align-self-center"
               src={logo} fluid
               alt="developer logo" />
           </div>

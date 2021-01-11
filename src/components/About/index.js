@@ -7,7 +7,7 @@ import { Media, Image } from 'react-bootstrap';
 
 function About() {
   return (
-    <Media class="container">
+    <section class="container">
       <Image
         id="photo"
         src={profileImage} roundedCircle fluid
@@ -20,7 +20,7 @@ function About() {
           which make my strongest skills communication, organization, problem solving, team-work, and flexbility.  I rely on the use
           of all of those retail skills in my every day developer life. </p>
       </Media.Body>
-    </Media>
+    </section>
   );
 }
 

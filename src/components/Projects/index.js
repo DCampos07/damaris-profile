@@ -1,68 +1,28 @@
-import React from 'react';
-import { Card, Button, CardTitle, CardText, CardImg, Row, Col } from 'reactstrap';
+import React from 'react'; 
+import ProjectCards from '../../components/Portfolio'
+import portfolio from '../../projects.json'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Projects() {
-  return (
-    <Row>
-      <Col sm={{ size: 'auto', offset: 1 }}>
-        <Card body>
-        <CardImg top width="100%" src="../../assets/318x180.svg" alt="Card image cap" />
-          <CardTitle tag="h5">Project #1</CardTitle>
-          <CardText>Summary of first projet.</CardText>
-          <Button outline color="primary">take me to GitHub for this button</Button>{''}
-        </Card>
-      </Col>
-      <Col sm={{ size: 'auto', offset: 1 }}>
-        <Card body>
-        <CardImg top width="100%" src="../../assets/318x180.svg" alt="Card image cap" />
-          <CardTitle tag="h5">Project #2</CardTitle>
-          <CardText>Summary of projet.</CardText>
-          <Button outline color="primary">take me to GitHub for this button</Button>{''}
-        </Card>
-      </Col>
-      <Col sm={{ size: 'auto', offset: 1 }}>
-        <Card body>
-        <CardImg top width="100%" src="../../assets/318x180.svg" alt="Card image cap" />
-          <CardTitle tag="h5">Project #3</CardTitle>
-          <CardText>Summary of projet.</CardText>
-          <Button outline color="primary">take me to GitHub for this button</Button>{''}
-        </Card>
-      </Col>
-      <Col sm={{ size: 'auto', offset: 1 }}>
-        <Card body>
-        <CardImg top width="100%" src="../../assets/318x180.svg" alt="Card image cap" />
-          <CardTitle tag="h5">Project #4</CardTitle>
-          <CardText>Summary of projet.</CardText>
-          <Button outline color="primary">take me to GitHub for this button</Button>{''}
-        </Card>
-      </Col>
-      <Col sm={{ size: 'auto', offset: 1 }}>
-        <Card body>
-        <CardImg top width="100%" src="../../assets/318x180.svg" alt="Card image cap" />
-          <CardTitle tag="h5">Project #5</CardTitle>
-          <CardText>Summary of projet.</CardText>
-          <Button outline color="primary">take me to GitHub for this button</Button>{''}
-        </Card>
-      </Col>
-      <Col sm={{ size: 'auto', offset: 1 }}>
-        <Card body>
-        <CardImg top width="100%" src="../../assets/318x180.svg" alt="Card image cap" />
-          <CardTitle tag="h5">Project #6</CardTitle>
-          <CardText>Summary of projet.</CardText>
-          <Button outline color="primary">take me to GitHub for this button</Button>{''}
-        </Card>
-      </Col>
-      <Col sm={{ size: 'auto', offset: 1 }}>
-        <Card body>
-        <CardImg top width="100%" src="../../assets/318x180.svg" alt="Card image cap" />
-          <CardTitle tag="h5">Project #7</CardTitle>
-          <CardText>Summary of projet.</CardText>
-          <Button outline color="primary">take me to GitHub for this button</Button>{''}
-        </Card>
-      </Col>
-    </Row>
-
-  );
+function Wrapper(props) {
+    return <div className="wrapper">{props.children}</div>;
 }
+
+function Projects () {  
+
+    return (
+        <section className="container">
+          <div className="project">
+            <h2 className="top-title">Bootcamp Projects</h2>
+          </div>
+
+          <Wrapper id="card-data">
+            {portfolio.map((project) => (
+              <ProjectCards key={project.id} image={project.image} name={project.name} github={project.github} deploy={project.deploy} topics={project.topics} description={project.description}/>
+            ))}
+          </Wrapper>
+        </section>
+    
+    );
+  }
 
 export default Projects;

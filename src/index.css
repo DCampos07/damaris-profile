@@ -48,9 +48,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Sofia';
   font-weight: 500;
-  margin: 5px 5px;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
   line-height: 1.25;
 }
 
@@ -60,7 +61,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  font-family: 'Abril Fatface';
+  font-family: 'Sofia';
   color: var(--darker);
 }
 
@@ -130,6 +131,8 @@ img {
 #photo {
   max-height:300px;
   border-radius: 300px;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
   }
 
 span[role="img"] {
