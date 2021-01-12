@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# OfflineBudgetTracker
+<img align="left" src="https://img.shields.io/badge/License-MIT-green" alt="license">
+<img align="right" width="100" height="100" src="https://avatars0.githubusercontent.com/u/68753563?s=400&u=db8ed5c85d35601b1cace358ee79fa43b9f12676&v=4" alt="Github Profile Image"><hr>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Live Link
+N/A
 
-## Available Scripts
+## Contributors
+DCampos07
+    
+## Table of Contents
+<li><a href="#description">Description</a></li>  
+<!-- <li><a href="#installation">Installation</a></li>  -->
+<li><a href="#tech">Technology Stack</a></li> 
+<!-- <li><a href="#usage">Usage</a></li>  -->
+<li><a href="#screenshots">Screenshots</a></li> 
+<li><a href="#contact">Contact</a></li> 
+<!-- <li><a href="#tests">Tests</a></li>  -->
+  
+<h2 id= "description">Description</h2>
+Personal profile created using REACT and stored in GitHub.
 
-In the project directory, you can run:
+<!-- <h2 id= "installation">Installation</h2>
+`npm i, nodemon` -->
+    
+<h2 id= "technology">Technology Stack</h2>
+ `REACT, GitHub, CSS, Bootstrap, Command- Line`
+  
+<!-- <h2 id= "usage">Usage</h2>
+Use this to manage and maintain your company's database. -->
+  
+<h2 id= "screenshots">Screenshots</h2>
 
-### `npm start`
+<img src="../../assets/screenshot.png" alt="photo of profile">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h2 id= "contact">Contact</h2>
+<li>Name: Damaris Campos</li> 
+<li>Github: https://github.com/DCampos07</li> 
+<li>Portfolio: DCampos07.github.io</li>
+<li>Email: <a href="mailto:dccampos00@gmail.com" target="_blank">dccampos00@gmail.com</a></li> 
+<li>LinkedIn: https://www.linkedin.com/in/damaris-c-870a1472/</li> 
 
-### `npm test`
+    
+<!-- <h2 id= "tests">Tests</h2>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Image of the App Test](./public/images/budget.gif "gif of the application tests") -->
 
-### `npm run build`
+<!-- View the [User & Friends walkthrough video here.](https://drive.google.com/file/d/1pKuDDpCjFXYS8vo5ZYWKmn8jSJZ-cIWe/view)
+ <br/>
+View the [Thoughts & Reactions walkthrough video here.](https://drive.google.com/file/d/1JZ5KGrK6M1DqUaJ9z1q1XQ_CBd0IcoiA/view)  -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

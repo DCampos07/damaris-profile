@@ -48,7 +48,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Sofia';
+  font-family: 'Quicksand';
   font-weight: 500;
   margin-top: .5rem;
   margin-bottom: .5rem;
@@ -61,7 +61,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  font-family: 'Sofia';
+  font-family: 'Quicksand';
   color: var(--darker);
 }
 
@@ -133,7 +133,24 @@ img {
   border-radius: 300px;
   margin-top: 1rem;
   margin-bottom: .5rem;
-  }
+}
+
+.media.body {
+  flex-wrap: wrap;
+  align-items: center;
+  flex: 2 70%;
+
+}
+.media {
+  width: 85%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
 
 span[role="img"] {
   cursor: default;
@@ -198,13 +215,6 @@ textarea {
 	height: 120px;
 	border: 3px solid #cccccc;
 	padding: 5px;
-}
-
-.container {
-  width: 85%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .flex-row {
