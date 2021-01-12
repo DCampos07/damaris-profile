@@ -1,6 +1,7 @@
 # Damaris Campos Profile (REACT)
 <img align="left" src="https://img.shields.io/badge/License-MIT-green" alt="license">
-<img align="right" width="100" height="100" src="https://avatars0.githubusercontent.com/u/68753563?s=400&u=db8ed5c85d35601b1cace358ee79fa43b9f12676&v=4" alt="Github Profile Image"><hr></hr>
+<img align="right" width="100" height="100" src="https://avatars0.githubusercontent.com/u/68753563?s=400&u=db8ed5c85d35601b1cace358ee79fa43b9f12676&v=4" alt="Github Profile Image">
+<hr></hr>
 
 ## Live Link
 
